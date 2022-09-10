@@ -20,7 +20,7 @@ Solution For Frontend Mentor Newbie Challenge Product preview card component
 
 Users should be able to:
 
-- View the optimal layout on Large And Small Screen.
+- View the optimal layout on Large Screen.
 
 ### Screenshot
 
@@ -38,7 +38,7 @@ ONLY WITH
 - CSS custom properties
 
 ### What I learned
-Learned to Use Both Flex ANd Grid ANd make the Card Responsive in small screen ONLY
+Learned to Use Both Flex, Grid And make the Card Responsive in small screen ONLY
 ```css
 .container{
     width: 100vw;
