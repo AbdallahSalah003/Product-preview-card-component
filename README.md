@@ -70,7 +70,6 @@ Learned to Use Both Flex, Grid And make the Card Responsive in small screen ONLY
 ### Continued development
 Why Not!
 ### Useful resources
-I realy love this site
 - [w3schools](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp)
 
 ## Author
