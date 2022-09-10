@@ -1,0 +1,129 @@
+
+.container{
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer{
+    box-shadow: 4px 4px 15px 5px rgb(220, 220, 220);
+    background-color:  hsl(30, 38%, 92%);
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub2container{
+    width: 30%;
+    height: 60%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(16 , 1fr);
+    grid-template-rows: 0.5fr repeat(10 , 1fr) 0.5fr;
+    border-radius: 15px;
+
+}
+#img{
+    background-color: blueviolet;
+    grid-area: 1/1/13/9; 
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#perf{
+    grid-area: 2/10/3/16;
+    background-color: white;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#Gab{
+    grid-area: 3/10/6/16;
+    background-color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#disc{
+    grid-area: 6/10/9/16;
+    background-color: white;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#price{
+    grid-area: 9/10/10/13;
+    background-color: white;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#discount{
+    grid-area: 9/13/10/16;
+    background-color: white;
+    text-decoration: line-through;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#addto{
+    grid-area: 10/10/12/16;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .sub2container{
+        width: 40%;
+        height: 90%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(26,1fr);
+    }
+    #img{
+        grid-area: 1/1/9/3;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+    }
+    #perf{
+        grid-area: 10/1/11/3;
+    }
+    #Gab{
+        grid-area: 12/1/15/3;
+    }
+    #disc{
+        grid-area: 16/1/19/3;
+    }
+    #price{
+        grid-area: 20/1/22/2;
+    }
+    #discount{
+        grid-area: 20/2/22/3;
+    }
+    #addto{
+        grid-area: 24/1/26/3;
+    }
+}
